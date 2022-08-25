@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+/* font-family: 'Rosario', sans-serif; */
+}
+
+.conteiner {
+  width: 100%;
+  height: 100%;
+}
+
+.conteiner .content {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.conteiner .content .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+
+.conteiner .content .navbar ul {
+  display: flex;
+  gap: 30px;
+}
+
+.conteiner .content .navbar ul li a {
+  font-size: 16px;
+  color: #222;
+}
+
+.conteiner .content .navbar img {
+  margin-left: -100px;
+}
+
+.conteiner .content .navbar .btns {
+  display: flex;
+  gap: 30px;
+}
+
+.conteiner .content .navbar .btns a i {
+  border: 1px solid #F3FBF8;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #F3FBF8;
+  font-size: 20px;
+  color: #222;
+}
+
+.conteiner .content .navbar .btns .register {
+  border: 1px solid #09A66D;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #09A66D;
+  color: #fff;
+  font-weight: 400;
+}
+
+/* organic */
+
+.conteiner .organic {
+  width: 100%;
+  height: 780px;
+  background-color: #F3FBF8;
+  padding: 0 4%;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+}
+
+.conteiner .organic .organic_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+}
+
+.conteiner .organic .organic_box .organic_left {
+  width: 80%;
+  height: 100%;
+
+} 
+
+.conteiner .organic .organic_box .organic_left img {
+  width: 55%;
+  position: absolute;
+  top: -25%;
+  left: 7%;
+  object-fit: cover;
+  height: 125%;
+  z-index: 1;
+}
+
+.conteiner .organic .lists {
+  width: 35%;
+  position: absolute;
+  top: -5%;
+  left: 0;
+}
+
+.conteiner .organic .lists img {
+  width: 100%;
+  z-index: 1;
+}
+
+.conteiner .organic .organic_title {
+  width: 50%;
+  margin: 0 auto;
+  z-index: 100;
+}
+
+.conteiner .organic .organic_title h1 {
+  font-size: 70px;
+   font-family: 'Rosario', sans-serif;
+   margin-bottom: 30px;
+}
+
+.conteiner .organic .organic_title p {
+  width: 75%;
+  margin: 0 auto;
+  line-height: 30px;
+  color: #555555;
+  margin-bottom: 50px;
+}
+
+.conteiner .organic .organic_btn a {
+  color: #222222;
+  font-size: 18px;
+  font-weight: 600;
+  z-index: 1000;
+}
+
+.conteiner .organic .organic_btn  i {
+  border: 1px solid transparent;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: #09A66D;
+  color: #fff;
+  position: relative;
+  left: 20px;
+  top: 4px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.conteiner .organic .organic_box .organic_right {
+  width: 20%;
+  height: 100%;
+  border: 1px solid transparent;
+  position: relative;
+  top: -50px;
+}
+
+.conteiner .organic .organic_box .organic_right .organic_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  width: 80%;
+  height: 110px;
+  border: 1px solid transparent;
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding:  0 20px;
+  border-radius: 5px;
+}
+
+.conteiner .organic .organic_box .organic_right .organic_item .organic_item_title h2 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.conteiner .organic .organic_box .organic_right .organic_item .organic_item_title p {
+  font-size: 14px;
+}
