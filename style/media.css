@@ -1,0 +1,54 @@
+@media screen and (max-width: 375px) {
+  body {
+    /* background-color: red; */
+  }
+
+  .conteiner .content .navbar ul {
+    display: none;
+  }
+
+  .conteiner .content .navbar img {
+    margin: 0;
+  }
+
+  .conteiner .content .navbar .btns {
+    gap: 10px;
+  }
+
+  .conteiner .content .navbar .btns .register {
+    display: none;
+  }
+
+  .conteiner .organic .lists {
+    width: 82%;
+    top: -7%;
+    left: 38px;
+    z-index: 1;
+  }
+
+  .conteiner .organic .organic_title {
+    width: 100%;
+    z-index: 10;
+    position: relative;
+  }
+
+  .conteiner .organic h1 {
+    font-size: 60px;
+    color: #55a765;
+    text-align: center;
+  }
+
+  .conteiner .organic p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .conteiner .organic .organic_btn {
+    margin-bottom: 70px;
+  }
+
+  .conteiner .organic .organic_box .organic_left {
+    display: none;
+  }
+}
